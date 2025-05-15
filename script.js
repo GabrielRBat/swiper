@@ -2,7 +2,7 @@ const propertySlider = new Swiper(".swiper.p-images", {
   // Optional parameters
   direction: "horizontal",
   loop: true,
-  slidesPerView: "auto",
+  slidesPerView: 2,
   spaceBetween: 16,
 
   // // If we need pagination
