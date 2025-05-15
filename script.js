@@ -12,7 +12,7 @@ const propertySlider = new Swiper(".swiper.p-images", {
 
   // Navigation arrows
   navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    nextEl: ".swiper-btn-next",
+    prevEl: ".swiper-btn-prev",
   },
 });
