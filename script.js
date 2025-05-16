@@ -1,7 +1,7 @@
 const propertySlider = new Swiper(".swiper.p-images", {
   direction: "horizontal",
   loop: true,
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 16,
   allowTouchMove: false, 
 
