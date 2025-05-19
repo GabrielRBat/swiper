@@ -3,7 +3,11 @@ const propertySlider = new Swiper(".swiper.p-images", {
   loop: true,
   slidesPerView: 2,
   spaceBetween: 16,
-  allowTouchMove: false, 
+  allowTouchMove: false,
+
+  zoom: {
+    maxRatio: 3, // você pode ajustar esse valor conforme preferir
+  },
 
   navigation: {
     nextEl: ".swiper-btn-next",
